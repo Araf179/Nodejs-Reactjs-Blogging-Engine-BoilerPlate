@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js --ignore tests",
